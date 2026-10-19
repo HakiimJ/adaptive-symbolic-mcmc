@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Cost of one likelihood evaluation in microseconds. The symbolic and endpoint-free likelihoods cost $O(B)$ and are independent of the sample size $m$; the full-data likelihood costs $O(n)$.}
+\label{tab:sim-scaling}
+\begin{tabular}{lrrrrr}
+\toprule
+$m$ & $B$ & S ($\mu$s) & EF ($\mu$s) & F ($\mu$s) & speedup F/S \\
+\midrule
+  50 &    5 & 13.33 & 6.67 & 3.33 & 0.25 \\
+  50 &   10 & 10.00 & 10.00 & 3.33 & 0.33 \\
+  50 &   20 & 10.00 & 6.67 & 3.33 & 0.33 \\
+  50 &   50 & 13.33 & 6.67 & 3.33 & 0.25 \\
+ 200 &    5 & 10.00 & 6.67 & 6.67 & 0.67 \\
+ 200 &   10 & 10.00 & 6.67 & 3.33 & 0.33 \\
+ 200 &   20 & 10.00 & 6.67 & 6.67 & 0.67 \\
+ 200 &   50 & 13.33 & 10.00 & 6.67 & 0.50 \\
+1000 &    5 & 13.33 & 6.67 & 13.33 & 1.00 \\
+1000 &   10 & 13.33 & 6.67 & 10.00 & 0.75 \\
+1000 &   20 & 13.33 & 6.67 & 10.00 & 0.75 \\
+1000 &   50 & 13.33 & 6.67 & 10.00 & 0.75 \\
+5000 &    5 & 10.00 & 6.67 & 53.33 & 5.33 \\
+5000 &   10 & 10.00 & 6.67 & 46.67 & 4.67 \\
+5000 &   20 & 10.00 & 6.67 & 46.67 & 4.67 \\
+5000 &   50 & 13.33 & 6.67 & 43.33 & 3.25 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+% Reduce default column padding (from 6pt to 3pt) to save horizontal space
+\renewcommand{\tabcolsep}{3pt}
+\caption{Stationary GEV fits to monthly maxima of the daily THI, 1981--2025 ($540$ blocks). F: full-data maximum likelihood with asymptotic standard error. S: endpoint-augmented symbolic likelihood ($B=10$), posterior mean with standard deviation. EF: endpoint-free grouped likelihood ($B=10$). Return levels are monthly-maximum quantiles. ``Endpt (S)'' is the fitted upper endpoint when $\xi<0$ and $+\infty$ otherwise; ``Bound'' is the fraction of symbolic shape draws within $10^{-3}$ of the lower support bound $-1/2$. At sites where the full-data estimate is pinned at the support bound, the asymptotic standard error is reported as n/a.}
+\label{tab:app-gev}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l *{11}{c}}
+\toprule
+Site & $\hat\xi$ (F) & SE (F) & $\xi$ (S) & SD (S) & $\xi$ (EF) & Endpt (S) & Bound & $z_{10}$ (S) & $z_{100}$ (F) & $z_{100}$ (S) & $z_{100}$ (EF) \\
+\midrule
+Singapore & -0.084 & 0.030 & -0.095 & 0.031 & -0.078 & 36.124 & 0.000 & 30.078 & 31.092 & 31.074 & 31.140 \\
+Yakutsk & -0.499 & n/a & -0.491 & 0.009 & -0.291 & 38.934 & 0.101 & 26.005 & 34.216 & 34.854 & 313.190 \\
+Death Valley & -0.489 & 0.020 & -0.468 & 0.021 & -0.479 & 32.422 & 0.011 & 28.996 & 31.118 & 31.276 & 31.902 \\
+Melbourne & -0.491 & 0.032 & -0.468 & 0.025 & -0.098 & 34.392 & 0.017 & 30.076 & 32.793 & 32.943 & 135.189 \\
+Chicago & -0.499 & n/a & -0.485 & 0.013 & 0.100 & 32.305 & 0.055 & 27.009 & 30.282 & 30.607 & 162.917 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table*}

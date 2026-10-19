@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Method comparison by data-generating case (means over sample sizes and resolutions). F: full-data MLE; S: endpoint-augmented symbolic likelihood; EF: endpoint-free grouped likelihood. The last three columns are the minimum, median and maximum of the symbolic-to-full-data RMSE ratio.}
+\label{tab:sim-comp}
+\begin{tabular}{lrrrrrrrrrrrrr}
+\toprule
+case & family & Bias F & Bias S & Bias EF & RMSE F & RMSE S & RMSE EF & Cov F & Cov S & Cov EF & min & median & max \\
+\midrule
+GEV-b0.2 & GEV & -0.005 & +0.005 & +0.054 & 0.043 & 0.045 & 0.085 & 0.945 & 0.911 & 0.940 & 0.490 & 1.059 & 3.210 \\
+GEV-0 & GEV & -0.009 & -0.003 & +0.014 & 0.053 & 0.050 & 0.068 & 0.828 & 0.862 & 0.969 & 0.747 & 0.934 & 1.581 \\
+GEV-p0.2 & GEV & -0.001 & -0.003 & -0.080 & 0.056 & 0.059 & 0.117 & 0.823 & 0.865 & 0.836 & 0.676 & 1.199 & 2.393 \\
+GPD-b0.25 & GPD & -0.013 & +0.013 & +0.105 & 0.055 & 0.049 & 0.125 & 0.922 & 0.878 & 0.901 & 0.613 & 1.045 & 1.773 \\
+GPD-0 & GPD & -0.040 & -0.021 & +0.037 & 0.075 & 0.063 & 0.072 & 0.930 & 0.911 & 0.964 & 0.721 & 1.007 & 2.120 \\
+GPD-p0.2 & GPD & -0.032 & -0.024 & -0.016 & 0.080 & 0.071 & 0.065 & 0.891 & 0.932 & 0.971 & 0.760 & 0.936 & 4.011 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Numerical-stabilisation sensitivity. ``eps'' is the floor added to the bin masses ($0$ is the paper's likelihood, which returns $-\infty$ for a non-positive bin probability and relies on rejection). For each floor the table reports the largest change in the log-likelihood on a location grid, the number of shape values (out of 41) that the floored likelihood accepts although the exact likelihood rejects them, and the largest floored log-likelihood attained over the shape grid -- a flat, unbounded direction when a floor is used.}
+\label{tab:supp-eps}
+\begin{tabular}{lrrr}
+\toprule
+$\epsilon$ & max abs change & grid points accepted & max log-likelihood \\
+\midrule
+   0 &    0 & 0 & -1657.2 \\
+1e-10 & 1.22e-06 & 0 & -1657.2 \\
+1e-12 & 1.22e-08 & 0 & -1657.2 \\
+1e-14 & 1.22e-10 & 0 & -1657.2 \\
+\bottomrule
+\end{tabular}
+\end{table}

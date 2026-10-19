@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\tabcolsep}{3pt}
+\caption{Overlapping moving-window GEV fits to monthly maxima ($W=120$ blocks, step $6$, $71$ windows per site, $B=10$). The window sequence re-fits the stationary model in each window. ``Cover.'' is the fraction of windows in which the symbolic $90\%$ interval contains the full-data estimate. ``Bound'' is the fraction of windows where the symbolic posterior lies at the support bound. The slope is a screening statistic only, on a monthly-maximum scale, with a standard error from the effective sample size \eqref{eq:neff}. $t_S$ and $t_F$ are median computation times in seconds for the symbolic and full-data fits, respectively.}
+\label{tab:app-win}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l *{10}{c}}
+\toprule
+Site & Mean $|\Delta\xi|$ & Max $|\Delta\xi|$ & Cover. & Bound & Slope & SE & $n_{\mathrm{eff}}$ & $t_S$ & $t_F$ \\
+\midrule
+Singapore  & 0.012 & 0.051 & 1.000 & 0.000 & -0.003 & 0.002 & 3.66 & 0.54 & 0.05 \\
+Yakutsk  & 0.034 & 0.046 & 0.000 & 0.000 & 0.000 & 0.000 & 5.14 & 0.49 & 0.06 \\
+Death Valley  & 0.049 & 0.087 & 0.014 & 0.000 & 0.000 & 0.000 & 4.48 & 0.49 & 0.06 \\
+Melbourne  & 0.068 & 0.101 & 0.141 & 0.000 & 0.000 & 0.000 & 5.71 & 0.50 & 0.06 \\
+Chicago  & 0.049 & 0.062 & 0.000 & 0.000 & 0.000 & 0.000 & 4.11 & 0.50 & 0.06 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table*}

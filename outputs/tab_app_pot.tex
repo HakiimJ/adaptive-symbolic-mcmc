@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+% Reduce default column padding (from 6pt to 3pt) to save horizontal space
+\renewcommand{\tabcolsep}{3pt}
+\caption{Generalized Pareto fits to daily THI excesses above the site-specific $95$th percentile. $\hat\xi$ (F): full-data maximum likelihood with asymptotic standard error. $\xi$ (S): endpoint-augmented symbolic likelihood ($B=10$), posterior mean with standard deviation. ``Endpt (S)'' is the fitted upper endpoint of the excess distribution in \textdegree C above the threshold; ``Diff.'' is the absolute difference between the full-data and symbolic shape estimates.}
+\label{tab:app-pot}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l *{10}{c}}
+\toprule
+Site & Thresh. & Excesses & $\hat\xi$ (F) & SE (F) & $\xi$ (S) & SD (S) & Endpt (S) & $z_{100}$ (F) & $z_{100}$ (S) & Diff. \\
+\midrule
+Singapore & 29.497 & 822 & -0.121 & 0.029 & -0.123 & 0.029 & 3.882 & -0.782 & -0.789 & 0.002 \\
+Yakutsk & 24.533 & 822 & -0.322 & 0.021 & -0.313 & 0.022 & 7.746 & -5.103 & -5.066 & 0.008 \\
+Death Valley & 27.964 & 822 & -0.173 & 0.024 & -0.170 & 0.024 & 5.179 & -1.588 & -1.599 & 0.003 \\
+Melbourne & 26.925 & 822 & -0.306 & 0.024 & -0.301 & 0.026 & 7.318 & -4.591 & -4.538 & 0.005 \\
+Chicago & 25.225 & 822 & -0.247 & 0.025 & -0.244 & 0.025 & 6.588 & -3.134 & -3.148 & 0.003 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table*}
