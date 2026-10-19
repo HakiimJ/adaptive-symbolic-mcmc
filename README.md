@@ -3,7 +3,7 @@
 This repository contains the complete, reproducible R replication pipeline, dataset acquisition routines, Monte Carlo simulation engines, and figure generation code for the manuscript:
 
 > **"Endpoint-augmented symbolic likelihoods for extreme-value inference"**  
-> *Ahmad Hakiim Jamaluddin, Muhammad Aslam Mohd Safari, Farid Zamani Che Rose, Muhammad Jaffri Mohd Nasir, and Hani Syahida Zulkafli.*
+> *Ahmad Hakiim Jamaluddin, Muhammad Aslam Mohd Safari, Farid Zamani Che Rose, and Hani Syahida Zulkafli.*
 
 ---
 
